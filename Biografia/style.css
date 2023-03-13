@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+  
+
+}
+   
+
+    
+header{
+    
+    background-color: #9d89e7; 
+    padding: 20px 0;
+   
+    
+
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+.TituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+
+.Seccion{
+    
+    
+    background: linear-gradient(#e0daeb, #987dca);
+    padding: 50px 50px 50px 50px;
+}
+              
+
+.Contenido1{
+    
+    width: 940px;
+    margin:0  auto;/*esto esta centralizado*/
+}
+.Contenido1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+
+}
+.titulo2{
+    
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.Imagen{
+    width: 150px;
+    float: left;/*colocar el elemento en la lateral de nuestra pagina y dejar los otros elementos alrededor de el*/
+   
+}
+.Imagen:hover{
+    opacity:0.3;
+}
+
+
+
+
+.seccion2{
+    background: linear-gradient( #987dca, #d4cedf);
+    
+    
+    
+
+}
+
+
+
+
+legend{
+    
+    text-align: center;       
+    padding: 0 50px 50px 15%;
+    
+    
+}
+
+    
+.navegacion{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;/*espaciemiento*/
+        
+    
+    
+}
+footer{
+    
+    background-color: #4160a3;
+    text-align: center;       
+    padding: 50px 50px 50px 15%;
+}
