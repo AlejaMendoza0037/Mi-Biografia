@@ -8,11 +8,31 @@ body{
     
 header{
     
-    background-color: #9d89e7; 
+    background-color: #a1978a; 
     padding: 20px 0;
    
     
 
+}
+nav{
+   
+    top: 110px;/*espacio de arriba hacia abajo*/
+    right: 0;/*la pocision especifica la pocision del objeto*/
+   /*--> --v*/
+    
+}
+nav li {
+    display: inline;/* ocupe el tamaño de su contenido*/
+    margin: 0 0 0 15px;/*espacionamineto interno*/
+    
+    
+        text-transform: uppercase;/*las mayusculas*/
+        color: black;
+        font-weight: bold;/*negrita letra*/
+       
+        text-decoration: none;/*decoracion de texto*/
+    
+    
 }
 
 .caja{
@@ -21,7 +41,8 @@ header{
     margin: 0 auto;
 
 }
-.TituloPrincipal{
+
+h2{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
@@ -57,7 +78,10 @@ header{
 }
 
 .Imagen{
-    width: 150px;
+    width: 15%;   
+    transition: 400ms;
+   
+    
     float: left;/*colocar el elemento en la lateral de nuestra pagina y dejar los otros elementos alrededor de el*/
    
 }
@@ -79,13 +103,7 @@ header{
 
 
 
-legend{
-    
-    text-align: center;       
-    padding: 0 50px 50px 15%;
-    
-    
-}
+
 
     
 .navegacion{
@@ -96,9 +114,53 @@ legend{
     
     
 }
+.Imagen2{
+    width: 10%;   
+    transition: 400ms;
+   
+    
+    float: left;/*colocar el elemento en la lateral de nuestra pagina y dejar los otros elementos alrededor de el*/
+   
+}
+.Imagen2:hover{
+    opacity:0.3;
+}
 footer{
     
-    background-color: #4160a3;
+    background-color: #232e46;
     text-align: center;       
-    padding: 50px 50px 50px 15%;
+    padding: 40px;
+}
+.copyrigth{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+
+}
+
+@media screen and (max-width:480px){
+    h2{
+        text-align: left;
+        
+    }
+    nav{
+        position: static;
+    }
+
+    .p .titulo2 .Seccion .parrafo .Contenido1 .seccion2{
+      width: auto;
+      text-align: center;
+      
+    }
+    
+    .Titu{
+        text-align: center;
+    }
+   
+    
+
+   
+
+    
+    
 }
